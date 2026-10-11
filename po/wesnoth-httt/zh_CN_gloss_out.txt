@@ -1,0 +1,30 @@
+==== Weldyn ====
+  [Dan’Tonk, we are so close to Weldyn.] => [丹·冬克，我们已经如此接近维尔帝了。]
+==== Wesnoth ====
+  [And so passes Asheviere, the dark queen of Wesnoth] => [艾什薇尔，韦诺的黑暗女王，就此死去。]
+  [Return to Wesnoth] => [重返韦诺]
+  [The Battle for Wesnoth] => [韦诺之战]
+  [The Princess of Wesnoth] => [韦诺公主]
+==== Garard ====
+==== Dan ====
+  [Dan’Tonk, we are so close to Weldyn.] => [丹·冬克，我们已经如此接近维尔帝了。]
+==== Tath ====
+==== Alduin ====
+  [And so the party landed on the Isle of Alduin.] => [就这样，一行人在奥渡因岛登岸了。]
+  [And the ship will take us to Alduin?] => [那这艘船会把我们带到奥渡因？]
+  [So this is Alduin. It looks a little... desolate.] => [这么说这里就是奥渡因岛了。这儿看起来有点……荒凉。]
+  [The Isle of Alduin] => [奥渡因岛]
+==== Asheviere ====
+  [And so passes Asheviere, the dark queen of Wesnoth] => [艾什薇尔，韦诺的黑暗女王，就此死去。]
+  [Asheviere] => [艾什薇尔]
+  [Defeat Asheviere] => [击败艾什薇尔]
+==== Malal ====
+  [Defeat Muff Malal] => [击败玛夫·玛拉尔]
+  [Muff Malal] => [玛夫·玛拉尔]
+  [Muff Malal’s Peninsula] => [玛夫·玛拉尔的半岛]
+==== Deoran ====
+==== Lionel ====
+  [I am Lionel. I am the Lost General. I will avenge ] => [我是莱昂内尔，失落的将军。我要向你们复仇！]
+  [Lionel] => [莱昂内尔]
+  [Lionel? A General? I remember that name...] => [莱昂内尔？一位将军？我记得这个名字……]
+  [Rest in peace, Lionel. The poor, lost general.] => [愿您安息，莱昂内尔，可怜的，失落的，将军。]

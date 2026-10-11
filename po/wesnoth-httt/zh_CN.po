@@ -45,20 +45,16 @@ msgstr "HttTC"
 # The word "nuo" chosen can and has been be used in names. Hence I combine these two characters to describe game Wesnoth, one of war, strategy, victories and defeat.
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:23
-#, fuzzy
 #| msgid ""
 #| "Fight to regain the throne of Wesnoth, of which you are the legitimate "
 #| "heir.\n"
 #| "\n"
 msgid ""
 "Fight to regain the throne of Wesnoth, of which you are the legitimate heir."
-msgstr ""
-"为夺回韦诺的王座而战斗吧，你才是合法的继承人。\n"
-"\n"
+msgstr "为夺回韦诺的王座而战斗吧，你才是合法的继承人。"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:25
-#, fuzzy
 #| msgid ""
 #| "Fight to regain the throne of Wesnoth, of which you are the legitimate "
 #| "heir.\n"
@@ -71,12 +67,7 @@ msgid ""
 "This is the original version of this classic campaign, preserved for "
 "historical reasons. Also optionally includes the old <i>Battle Training</i> "
 "tutorial."
-msgstr ""
-"为夺回韦诺的王座而战斗吧，你才是合法的继承人。\n"
-"\n"
-"这是这个经典战役的原版，为历史原因而保留。同时可选地包含老的<i>战斗训练</i>教"
-"程。\n"
-"\n"
+msgstr "这是此经典战役的原始版本，出于历史原因而保留。也可选择包含旧的<i>战斗训练</i>教程。"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:27
@@ -139,12 +130,12 @@ msgstr "其他"
 #. [achievement]: id=completed
 #: data/campaigns/Heir_To_The_Throne_Classic/achievements.cfg:7
 msgid "Trained for Battle"
-msgstr ""
+msgstr "受过战斗训练"
 
 #. [achievement]: id=completed
 #: data/campaigns/Heir_To_The_Throne_Classic/achievements.cfg:8
 msgid "Complete the old <i>Battle Training</i> tutorial."
-msgstr ""
+msgstr "完成旧的<i>战斗训练</i>教程。"
 
 #. [scenario]: id=01_The_Elves_Besieged
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/01_The_Elves_Besieged.cfg:4
@@ -8092,7 +8083,6 @@ msgstr ""
 
 #. [message]: speaker=Li'sar
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/24_Battle_for_Wesnoth.cfg:237
-#, fuzzy
 #| msgid ""
 #| "Surrender, mother. The land’s blood is spent. I have come to take my "
 #| "rightful place."
@@ -8907,9 +8897,3 @@ msgid ""
 msgstr ""
 "德法多逃到了艾森丛林，远在韦诺的西南边境之外。在精灵们的保护下，他将科纳德抚"
 "养长大。而与此同时，他只能悲哀地看着艾什薇尔的恐怖统治开始在这片土地上蔓延……"
-
-#~ msgid "Water Serpent"
-#~ msgstr "巨型水蛇"
-
-#~ msgid "Cuttle Fish"
-#~ msgstr "乌贼怪"

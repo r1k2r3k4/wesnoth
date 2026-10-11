@@ -1708,28 +1708,28 @@ msgid "No gold carried over to the next scenario."
 msgstr "没有金币会带到下一场景。"
 
 #: data/core/macros/deprecated-utils.cfg:63
-#, fuzzy
-#| msgid "No gold carried over to the next scenario."
 msgid ""
 "\n"
 "100% of finishing gold carried over to the next scenario."
-msgstr "没有金币会带到下一场景。"
+msgstr ""
+"\n"
+"100%的完成金币将带到下一场景。"
 
 #: data/core/macros/deprecated-utils.cfg:68
-#, fuzzy
-#| msgid "No gold carried over to the next scenario."
 msgid ""
 "\n"
 "40% of finishing gold carried over to the next scenario."
-msgstr "没有金币会带到下一场景。"
+msgstr ""
+"\n"
+"40%的完成金币将带到下一场景。"
 
 #: data/core/macros/deprecated-utils.cfg:73
-#, fuzzy
-#| msgid "No gold carried over to the next scenario."
 msgid ""
 "\n"
 "20% of finishing gold carried over to the next scenario."
-msgstr "没有金币会带到下一场景。"
+msgstr ""
+"\n"
+"20%的完成金币将带到下一场景。"
 
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/deprecated-utils.cfg:284
@@ -7100,10 +7100,8 @@ msgid "multiplayer^MP"
 msgstr "多人游戏"
 
 #: src/game_initialization/create_engine.cpp:661
-#, fuzzy
-#| msgid "Variable not found"
 msgid "Era not found: "
-msgstr "未找到变量"
+msgstr "未找到时代："
 
 #: src/game_initialization/depcheck.cpp:495
 msgid "Failed to resolve dependencies"

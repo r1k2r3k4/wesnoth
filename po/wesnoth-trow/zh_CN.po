@@ -6982,3 +6982,20 @@ msgstr "这确实是个好消息。我们的人数增加了一倍。现在继续
 
 #~ msgid "Southbay Guard"
 #~ msgstr "南湾守卫"
+
+# 追加: 游戏内下载版 TROW 新增字符串(与主域物品名译文对齐)
+#: units/Autumn_Shyde.cfg
+msgid "female^Elvish Shyde"
+msgstr "精灵仙子"
+
+#: units/Wesfolk_Lady.cfg units/Wesfolk_Leader.cfg units/Wesfolk_Outcast.cfg
+msgid "sling"
+msgstr "弹弓"
+
+#: units/Wesfolk_Lady.cfg units/Wesfolk_Leader.cfg units/Wesfolk_Outcast.cfg
+msgid "staff"
+msgstr "手杖"
+
+#: scenarios/12_A_Final_Spring.cfg
+msgid "storm trident"
+msgstr "风暴三叉戟"

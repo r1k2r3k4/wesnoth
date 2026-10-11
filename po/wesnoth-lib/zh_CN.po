@@ -6416,29 +6416,27 @@ msgstr "设置单位空闲动画显示频率"
 #. [label]
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:409
 msgid "Accessibility:"
-msgstr ""
+msgstr "辅助功能："
 
 #. [button]: id=custom_orb_color
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:423
 msgid "Customize orb colors"
-msgstr ""
+msgstr "自定义圆点颜色"
 
 #. [button]: id=custom_orb_color
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:425
 msgid "Change the appearance of the unit movement status indicators"
-msgstr ""
+msgstr "更改单位移动状态指示器的外观"
 
 #. [button]: id=custom_reach_map
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:438
-#, fuzzy
-#| msgid "Custom Maps"
 msgid "Customize reach map"
-msgstr "自定义地图"
+msgstr "自定义可达范围地图"
 
 #. [button]: id=custom_reach_map
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:439
 msgid "Change the appearance of the unit movement UI overlay"
-msgstr ""
+msgstr "更改单位移动界面覆盖层的外观"
 
 #. [tab]
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:498
@@ -6658,15 +6656,13 @@ msgstr "色调不透明度："
 
 #. [grid]
 #: data/gui/themes/default/dialogs/reachmap_options.cfg:148
-#, fuzzy
-#| msgid "Border Opacity:"
 msgid "Darken Opacity:"
-msgstr "边框不透明度："
+msgstr "变暗不透明度："
 
 #. [toggle_button]: id=reachmap_darken_tex
 #: data/gui/themes/default/dialogs/reachmap_options.cfg:157
 msgid "Textured darken"
-msgstr ""
+msgstr "纹理变暗"
 
 #. [button]: id=open
 #: data/gui/themes/default/dialogs/screenshot_notification.cfg:49
@@ -8220,16 +8216,12 @@ msgid "Random Maps"
 msgstr "随机地图"
 
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:167
-#, fuzzy
-#| msgid "Scenario Editor"
 msgid "Scenario not found: "
-msgstr "场景编辑器"
+msgstr "未找到场景："
 
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:237
-#, fuzzy
-#| msgid "Modifications: "
 msgid "Modification(s) not found: "
-msgstr "模组："
+msgstr "未找到模组："
 
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:294
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:295

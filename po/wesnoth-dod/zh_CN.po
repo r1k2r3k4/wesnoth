@@ -1479,7 +1479,7 @@ msgstr ""
 #. [scenario]: id=Secret
 #: data/campaigns/Dusk_of_Dawn/scenarios/Secret.cfg:5
 msgid "Secret"
-msgstr ""
+msgstr "秘密"
 
 #. [part]
 #: data/campaigns/Dusk_of_Dawn/scenarios/Secret.cfg:20
