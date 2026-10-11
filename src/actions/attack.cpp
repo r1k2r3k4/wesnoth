@@ -171,6 +171,14 @@ battle_context_unit_stats::battle_context_unit_stats(nonempty_unit_const_ptr up,
 	int opp_base_cth = opp_terrain_defense ? (100 - *opp_terrain_defense) : opp.defense_modifier(resources::gameboard->map().get_terrain(opp_loc));
 	signed int cth = weapon->modified_chance_to_hit(opp_base_cth);
 
+	// Apply the user-configurable hit chance bonus (range -50..50). It affects every
+	// attack launched by the human side — both the player's own attacks and their
+	// counterattacks — and never applies to attacks launched by an AI side. Applied
+	// before the invulnerable check so an invulnerable target still guarantees a miss.
+	if(resources::gameboard->get_team(u.side()).is_human()) {
+		cth += prefs::get().hit_chance_bonus();
+	}
+
 	if(opp.get_state("invulnerable")) {
 		cth = 0;
 	}

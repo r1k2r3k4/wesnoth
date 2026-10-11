@@ -448,6 +448,11 @@ void preferences_dialog::initialize_callbacks()
 		[]() {return prefs::get().auto_save_max();},
 		[](int v) {prefs::get().set_auto_save_max(v);});
 
+	/* PLAYER HIT CHANCE BONUS (human side attack chance, range -50..50) */
+	register_integer("hit_chance_bonus_slider", true,
+		[]() {return prefs::get().hit_chance_bonus();},
+		[](int v) {prefs::get().set_hit_chance_bonus(v);});
+
 	/* CACHE MANAGE */
 	connect_signal_mouse_left_click(find_widget<button>("cachemg"),
 		[](auto&&...) { dialogs::game_cache_options::display(); });
@@ -1113,6 +1118,7 @@ void preferences_dialog::pre_show()
 	// is not the case for those in Advanced
 	//
 	gui2::bind_default_status_label(find_widget<slider>("max_saves_slider"));
+	gui2::bind_default_status_label(find_widget<slider>("hit_chance_bonus_slider"));
 	gui2::bind_default_status_label(find_widget<slider>("turbo_slider"));
 	gui2::bind_default_status_label(find_widget<slider>("pixel_scale_slider"));
 }

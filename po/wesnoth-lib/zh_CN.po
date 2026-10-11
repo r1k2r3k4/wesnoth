@@ -6159,6 +6159,16 @@ msgstr "∞"
 msgid "Set maximum number of automatic saves to be retained"
 msgstr "设置自动存档的最大保留数量"
 
+#. [column]
+#: data/gui/themes/default/dialogs/preferences/01_general.cfg:215
+msgid "Player hit chance bonus:"
+msgstr "玩家命中率加成："
+
+#. [column]
+#: data/gui/themes/default/dialogs/preferences/01_general.cfg:219
+msgid "Bonus (in percentage points) added to your (human) units' chance to hit when they attack. 0 keeps the default behavior; the total is capped at 100%."
+msgstr "在你（人类）单位进攻时，为其命中率额外增加的百分点。0 表示保持默认行为；总命中率最高不超过 100%。"
+
 #. [button]: id=cachemg
 #: data/gui/themes/default/dialogs/preferences/01_general.cfg:218
 msgid "Cache"

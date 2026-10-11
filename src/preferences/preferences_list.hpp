@@ -127,6 +127,8 @@ struct preferences_list_defines
 	ADDPREF(gui2_theme)
 	/** whether to show teammate's whiteboard plans on the game map */
 	ADDPREF(hide_whiteboard)
+	/** percentage bonus applied to the player's (human side) attack chance to hit, range -50..50, 0 means no change */
+	ADDPREF(hit_chance_bonus)
 	/** list of lines of text entered into textboxes that support keeping a history */
 	ADDPREF(history)
 	/** the most recent multiplayer server hostname */
@@ -456,6 +458,7 @@ struct preferences_list_defines
 		grid,
 		gui2_theme,
 		hide_whiteboard,
+		hit_chance_bonus,
 		history,
 		host,
 		hotkey,

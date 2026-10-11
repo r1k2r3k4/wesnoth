@@ -647,6 +647,16 @@ void prefs::set_reach_map_darken_tex(const bool value)
 	preferences_[prefs_list::reach_map_darken_tex] = value;
 }
 
+int prefs::hit_chance_bonus()
+{
+	return preferences_[prefs_list::hit_chance_bonus].to_int(0);
+}
+
+void prefs::set_hit_chance_bonus(const int new_bonus)
+{
+	preferences_[prefs_list::hit_chance_bonus] = new_bonus;
+}
+
 point prefs::resolution()
 {
 	const unsigned x_res = preferences_[prefs_list::xresolution].to_unsigned();

@@ -328,6 +328,13 @@ public:
 	bool reach_map_darken_tex();
 	void set_reach_map_darken_tex(const bool value);
 
+	/**
+	 * @return percentage bonus applied to the player's attack chance to hit
+	 * (range -50..50, 0 = no change, default when unset).
+	 */
+	int hit_chance_bonus();
+	void set_hit_chance_bonus(const int new_bonus);
+
 	int scroll_speed();
 	void set_scroll_speed(const int scroll);
 
@@ -882,6 +889,7 @@ private:
 		prefs_list::ui_volume,
 		prefs_list::fullscreen,
 		prefs_list::maximized,
+		prefs_list::hit_chance_bonus,
 	};
 	static constexpr std::array unsynced_children_{
 		prefs_list::editor_recent_files,
